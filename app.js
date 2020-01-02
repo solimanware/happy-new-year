@@ -1,6 +1,6 @@
-let treesize = 10;
+const treesize = 10;
 let counter = treesize;
-let arr = [];
+const arr = [];
 //tree
 for (let i = 0; i < treesize; i++) {
     arr.push(' '.repeat(counter) + '*'.repeat((i*2)+1));
