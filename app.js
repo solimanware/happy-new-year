@@ -5,7 +5,6 @@ const arr = [];
 for (let i = 0; i < treesize; i++) {
     arr.push(' '.repeat(counter) + '*'.repeat((i*2)+1));
     counter--;
-
 }
 //trunk
 for (let i = 0; i < treesize/3; i++) {
