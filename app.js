@@ -10,6 +10,5 @@ for (let i = 0; i < treesize; i++) {
 for (let i = 0; i < treesize/3; i++) {
     arr.push(' '.repeat(treesize-1) + '*'.repeat((3)));
 }
-
 console.log(arr.join('\n'));
 
